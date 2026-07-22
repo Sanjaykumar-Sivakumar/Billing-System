@@ -1,0 +1,70 @@
+/* ============================================================
+   theme.css — Design Tokens (Royal Blue + Orange, Light/Dark)
+   ============================================================ */
+
+:root,
+[data-theme="light"] {
+  --brand-blue: #2541D6;
+  --brand-blue-dark: #1A2E9E;
+  --brand-blue-light: #4E68F0;
+  --accent-orange: #FF8A3D;
+  --accent-orange-dark: #E86F1E;
+
+  --accent-blue-soft: rgba(37, 65, 214, 0.12);
+  --accent-orange-soft: rgba(255, 138, 61, 0.15);
+  --accent-red-soft: rgba(230, 57, 70, 0.13);
+
+  --bg-app: #F3F5FC;
+  --bg-card: rgba(255, 255, 255, 0.75);
+  --bg-card-solid: #ffffff;
+  --bg-sidebar: linear-gradient(180deg, #1A2E9E 0%, #2541D6 100%);
+  --bg-input: #ffffff;
+
+  --text-primary: #14163A;
+  --text-secondary: #6B7089;
+  --text-inverse: #ffffff;
+
+  --border-color: rgba(37, 65, 214, 0.10);
+  --shadow-soft: 0 8px 30px rgba(37, 65, 214, 0.08);
+  --shadow-card: 0 4px 20px rgba(20, 22, 58, 0.06);
+  --shadow-lift: 0 12px 40px rgba(37, 65, 214, 0.16);
+
+  --success: #1EA672;
+  --danger: #E63946;
+  --warning: #F4A83A;
+
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+}
+
+[data-theme="dark"] {
+  --brand-blue: #5C77FF;
+  --brand-blue-dark: #3B54D6;
+  --brand-blue-light: #7C93FF;
+  --accent-orange: #FF9A52;
+  --accent-orange-dark: #FF8A3D;
+
+  --accent-blue-soft: rgba(92, 119, 255, 0.16);
+  --accent-orange-soft: rgba(255, 154, 82, 0.16);
+  --accent-red-soft: rgba(255, 99, 110, 0.16);
+
+  --bg-app: #0E1024;
+  --bg-card: rgba(28, 31, 61, 0.65);
+  --bg-card-solid: #1C1F3D;
+  --bg-sidebar: linear-gradient(180deg, #0E1024 0%, #171A38 100%);
+  --bg-input: #23264A;
+
+  --text-primary: #F2F3FB;
+  --text-secondary: #9599BD;
+  --text-inverse: #14163A;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-lift: 0 12px 40px rgba(0, 0, 0, 0.45);
+
+  --success: #35C88A;
+  --danger: #FF6B78;
+  --warning: #FFC15E;
+}
