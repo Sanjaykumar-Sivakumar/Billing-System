@@ -43,13 +43,6 @@ input, select, textarea { font-family: inherit; }
 }
 .login-orb-1 { width: 380px; height: 380px; background: var(--accent-orange); top: -120px; left: -100px; animation-delay: 0s; }
 .login-orb-2 { width: 320px; height: 320px; background: #5C77FF; bottom: -140px; right: -80px; animation-delay: 2.5s; }
-.login-bike{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-
 
 .login-box {
   width: 100%;
