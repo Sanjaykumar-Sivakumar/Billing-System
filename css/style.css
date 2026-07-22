@@ -49,20 +49,7 @@ input, select, textarea { font-family: inherit; }
     margin-bottom: 20px;
 }
 
-.login-bike img{
-    width: 180px;
-    height: auto;
-    animation: floatBike 3s ease-in-out infinite;
-}
 
-@keyframes floatBike{
-    0%,100%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-10px);
-    }
-}
 
 .login-box {
   width: 100%;
